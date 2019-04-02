@@ -21,8 +21,7 @@ public class Application {
         try {
             telegramBotsApi.registerBot(new TelegramBot());
         } catch (TelegramApiRequestException e) {
-            e.printStackTrace();
-	// another changes
+           // add some changes e.printStackTrace();
         }
 //        SpringApplication.run(Application.class, args);
     }
