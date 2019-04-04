@@ -22,7 +22,7 @@ public class Application {
             telegramBotsApi.registerBot(new TelegramBot());
         } catch (TelegramApiRequestException e) {
 
-            // add some another changes e.printStackTrace();
+            // add some changes e.printStackTrace();
 
 
 
